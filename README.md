@@ -13,21 +13,20 @@ Security testing is about making sure that authorised access is granted where an
 
 There are seven major areas of security testing:<br>
 
-  - Vulnerability Scanning
-  - Security Scanning
-  - Penetration Testing
-  - Risk Assessment
-  - Security Auditing
-  - Posture Assessment
-  - Ethical Hacking
+  1. Vulnerability Scanning  
+  2. Security Scanning  
+  3. Penetration Testing  
+  4. Risk Assessment  
+  5. Security Auditing  
+  6. Posture Assessment  
+  7. Ethical Hacking  
 
 ---
 
-Security Testing Techniques:
-  1. Application Access and User Management:  
-    a.  Roles and Right management: Is the appropriate level of access in an application commensurate with the user role / responsibilities?  
-    b.  Summarised in Authentication: Who are you? and Authorisation: What can you do?  
-      Authentication:  
+Security Testing Techniques:<br>
+  1. **Application Access and User Management:**<br>
+    > Roles and Right management: Is the appropriate level of access in an application commensurate with the user role / responsibilities?<br>
+    > Authentication: Who are you?<br>
         Password Management:  
           - Encryption: Salting and hashing  
           - Password quality rules  
@@ -37,7 +36,7 @@ Security Testing Techniques:
           - Logout functionality  
           - Password change  
           - Security Questionaire  
-      Authorisation:  
+    - Authorisation: What can you do?<br>
         Application specific: Do you have access to only what you need to do your job and no more?
           - Path traversal  
           - Missing authorisation  

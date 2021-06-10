@@ -1,7 +1,7 @@
 # SecurityTesting101
 Basic security testing
 
-> https://www.guru99.com/what-is-security-testing.html \n
+> https://www.guru99.com/what-is-security-testing.html \
 > https://www.softwaretestinghelp.com/how-to-test-application-security-web-and-desktop-application-security-testing-techniques/
 
   - Vulnerability Scanning

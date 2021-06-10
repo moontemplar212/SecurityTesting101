@@ -1,8 +1,17 @@
 # Security Testing 101
 Basic security testing
 
+---
+
 > https://www.guru99.com/what-is-security-testing.html  
+>
 > https://www.softwaretestinghelp.com/how-to-test-application-security-web-and-desktop-application-security-testing-techniques/  
+
+---
+
+Security testing is about making sure that authorised access is granted where and when it is needed to protect data and that unauthorised access is restricted.<br>
+
+There are seven major areas of security testing:<br>
 
   - Vulnerability Scanning
   - Security Scanning
@@ -11,6 +20,8 @@ Basic security testing
   - Security Auditing
   - Posture Assessment
   - Ethical Hacking
+
+---
 
 Security Testing Techniques:
   1. Application Access and User Management:  
@@ -45,7 +56,7 @@ Security Testing Techniques:
       Web Management:  
         - Data transfer is encrypted and decrypted properly particularly in 'submit' actions  
         - Sensitive information displayed in the address bar is not in a human readable format  
-        - Algorithm usage such as SHA256  
+        - Approrpiate algorithm usage such as SHA256 and excluding weak algorithms  
         - Certificate validity  
 
 3. Brute Force Attack:  
@@ -70,17 +81,31 @@ Security Testing Techniques:
 5. Service Access Points (Sealed And Secure Open):
   a.   
   
-6. Session Management:
-  a. Session timeout:
-    - Session expiry after an explicit idle time 
-    - Session termination after a maximum lifetime
-    - Session termination after log out
-    - User session count and/or multiple simultaneous sessions
+6. Session Management:  
+  a. Session timeout:  
+    - Session expiry after an explicit idle time  
+    - Session termination after a maximum lifetime  
+    - Session termination after log out  
+    - User session count and/or multiple simultaneous sessions  
   b. Cookies:
-    - Cookie scope and duration
-        
-  
-  
+    - Cookie scope and duration  
+    - Cookie entropy  
+
+7. Error Handling  
+  a. Error Codes:  
+    - Check for error codes such as 400, 404, 408, etc.  
+    - Error messages should not return any critical information that could be used for hacking purposes  
+    - Stack traces should not be included as they may contain information for hackers  
+
+8. Specific Risky Functions:  
+  a. Payments  
+    - Crypotgraphic storage
+    - Buffer overflows
+    - MITM attacks
+    
+  b. File Uploads
+    - Restricting uploads to whitelisted file types
+    - May want to parse the contents of the file before upload
 
 Security Testing Tools:
   - Netsparker

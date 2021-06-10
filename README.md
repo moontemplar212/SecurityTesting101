@@ -1,4 +1,4 @@
-# SecurityTesting101
+# Security Testing 101
 Basic security testing
 
 > https://www.guru99.com/what-is-security-testing.html  
